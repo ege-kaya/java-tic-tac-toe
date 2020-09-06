@@ -1,4 +1,4 @@
-package TicTacToe;
+package tictactoe;
 
 import java.util.Scanner;	import java.io.*;
 import java.util.InputMismatchException;
@@ -226,7 +226,7 @@ public class TicTacToe
 							break;
 						}
 						
-						// change the x and y coordinates randomly (but to valid values – i.e. empty cells) for the computer's move
+						// change the x and y coordinates randomly (but to valid values Â– i.e. empty cells) for the computer's move
 						do 
 						{
 							xCoordinate = random.nextInt(4) + 1; yCoordinate = random.nextInt(4) + 1;
